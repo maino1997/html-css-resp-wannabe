@@ -21,6 +21,13 @@
         font-size: 1.3em;
     }
 
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+        margin-top: 20px;
+    }
+
+
     h1{
       font-size: 3em;
     }
