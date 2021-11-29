@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+   
+ .container.grey{
+    width: 100 vw;
+    background-color: white;
+   }
+    
+
+
+
+@media screen and (max-width: 768px) and (min-width: 420px){
+    #lezioni .row>.left , #lezioni .row>.right , #steps .row>.left, #steps .row>.central, #steps .row>.right ,
+    #why .row>.first, #why .row>.second, #why .row>.third{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1.3em;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+        margin-top: 20px;
+    }
+
+
+    h1{
+      font-size: 3em;
+    }
+
+
+    #steps .row>.right{
+        margin: 0 250px;
+    }
+}
