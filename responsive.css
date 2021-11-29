@@ -10,10 +10,12 @@
     }
 
     #lezioni , #why{
+        width: 992px;
         background-color: rgb(242,242,205);
     }
 }
 
-.container .grey{
+.container.grey{
+    width: 992px;
     background-color: white;
 }
