@@ -13,12 +13,12 @@
 
 
 
-@media screen and (max-width: 600px) and (min-width: 421px){
+@media screen and (max-width: 768px) and (min-width: 420px){
     #lezioni .row>.left , #lezioni .row>.right , #steps .row>.left, #steps .row>.central, #steps .row>.right ,
     #why .row>.first, #why .row>.second, #why .row>.third{
         width: 50%;
         margin: 0 auto;
-        font-size: 2em;
+        font-size: 1.3em;
     }
 
     h1{
@@ -34,7 +34,7 @@
 
 
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 419px){
 
     .row{
         width: 100vw;
