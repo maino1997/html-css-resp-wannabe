@@ -5,7 +5,7 @@
  }
 
    
- .grey{
+ .container.grey{
     width: 100 vw;
     background-color: white;
    }
@@ -18,6 +18,11 @@
     #why .row>.first, #why .row>.second, #why .row>.third{
         width: 50%;
         margin: 0 auto;
+    }
+
+
+    #steps .row>.right{
+        margin: 0 250px;
     }
 }
 
@@ -37,6 +42,7 @@
 
     #lezioni .row>.left , #lezioni .row>.right , #steps .row>.left, #steps .row>.central, #steps .row>.right ,
     #why .row>.first, #why .row>.second, #why .row>.third{
+        margin: 0;
         width: 100%;
         padding: 10px;
     }
