@@ -13,6 +13,7 @@
 
     .row{
         width: 100vw;
+        margin-top: 0;
     }
 
     img{
@@ -23,6 +24,12 @@
     #why .row>.first, #why .row>.second, #why .row>.third{
         width: 100%;
         padding: 10px 0 10px 0;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+        margin-top: 30px;
     }
 
     h1{
