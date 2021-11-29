@@ -2,10 +2,18 @@
     #lezioni .row>.left , #lezioni .row>.right , #steps .row>.left, #steps .row>.central, #steps .row>.right ,
     #why .row>.first, #why .row>.second, #why .row>.third{
         width: 992px;
-        margin: 50px 0 50px 0;
+        margin: 20px 0 20px 0;
     }
 
     h1{
        font-size: 4rem;
     }
+
+    #lezioni , #why{
+        background-color: rgb(242,242,205);
+    }
+}
+
+.container .grey{
+    background-color: white;
 }
